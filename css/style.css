@@ -224,3 +224,53 @@ nav .container .links .search svg {
   font-size: 35px;
 }
 /* end services */
+
+/* pricing */
+.pricing .pricing-content .container .price-element {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pricing .pricing-content .container .price-element .heading{
+  border-top: 2px solid var(--second-light-color);
+  border-bottom: 2px solid var(--second-light-color);
+  padding: 40px 0px;
+  text-align: center;
+}
+.pricing .pricing-content .container .price-element .heading h5{
+  margin-bottom: 20px;
+}
+.pricing .pricing-content .container .price-element ul {
+  width: fit-content;
+  align-self: center;
+}
+.pricing .pricing-content .container .price-element ul li {
+  padding: 10px;
+  border-bottom: 2px solid var(--second-light-color);
+}
+.pricing .pricing-content .container .price-element ul li:last-child {
+  border-bottom: none;
+}
+.pricing .pricing-content .container .price-element .buy {
+  padding: 40px 0px;
+  border-top: 2px solid var(--second-light-color);
+  text-align: center;
+}
+.pricing .pricing-content .container .price-element .buy button {
+  border: 1px solid var(--second-light-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.pricing .text-center h5{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.pricing .text-center button{
+  background-color: var(--second-light-color);
+  color: white;
+}
+/* pricing */
